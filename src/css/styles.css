@@ -90,16 +90,23 @@ footer {
 }
 
 .fotogrid img {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: block;
   border-radius: 10px;
 }
 
 main.foto-main {
-  max-width: 1200px; 
-  display: block;    
+  max-width: 800px; 
+  display: block;
+  margin: 3rem auto;
+  font-size: 2rem;
+} 
+
+main.foto-main h1 {
+  text-align: center;
 }
+
 
 @media (max-width: 1024px) {
   
@@ -189,6 +196,18 @@ main.foto-main {
       width: 12rem;
     }
   
-
+    .fotogrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    
+    .fotogrid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
     
   }
