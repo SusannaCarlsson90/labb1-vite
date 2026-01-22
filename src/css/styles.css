@@ -81,7 +81,27 @@ footer {
  text-align: left;
 }
 
-media (max-width: 1024px) {
+/*FOTO*/
+.fotogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.fotogrid img {
+  width: 80%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+main.foto-main {
+  max-width: 1200px; 
+  display: block;    
+}
+
+@media (max-width: 1024px) {
   
   /* Krymper containern och menyn lite så det inte krockar */
   .main-container {
