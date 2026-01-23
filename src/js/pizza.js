@@ -2,19 +2,15 @@
 
 /*Min pizzabot*/
 
-// Start here
-
-// Step 1 - Welcome and introduction
-// Your code goes here
+//Välkommen
 alert(
   `Välkommen till min JavaScript pizzeria. Är du redo att börja? Tryck OK.`
 )
-
+//Start
 let namn = prompt("Vad heter du?");
 alert("Hej " + namn + "! Välkommen");
 
-// Step 2 - Food choice
-// Your code goes here
+//Välj mat
 let choice = prompt("Vad vill du beställa? Välj ett nummer:\n1. Pizza \n2. Pasta\n3. Sallad");
 if (choice === "1") {
   alert("Du har valt Pizza");
@@ -29,6 +25,7 @@ if (choice === "1") {
     alert("Ogiltigt pizzaval.");
 
   }
+
 
 } else if (choice === "2") {
   alert("Du har valt Pasta");
@@ -56,8 +53,8 @@ if (choice === "1") {
   alert("Ogiltigt val. Var god välj 1, 2 eller 3.");
 }
 
-// Step 4 - Age
-// Your code goes here
+// Ålder
+
 let age = prompt("Hur gammal är du? Skriv din ålder");
 age = Number(age);
 if (age <= 18) {
@@ -66,12 +63,11 @@ if (age <= 18) {
   alert("En vuxenportion kommer förberedas åt dig. Det blir 150 kr.");
 }
 
-// Step 5 - Order confirmation
-// Your code goes here
+// Orderbekräftelse
 let confirmation = prompt("Vill du bekräfta din beställning? Skriv Ja eller Nej");
 if (confirmation.toLowerCase() === "ja") {
   alert("Tack din order kommer förberedas");
-} else if (confirmation.toLowerCase === "nej") {
+} else if (confirmation.toLowerCase() === "nej") {
   alert("Okej, beställningen avbryts. Vi hoppas att vi ses snart igen!");
 } else {
   alert("Ogiltigt svar");

@@ -108,47 +108,8 @@ main.foto-main h1 {
 }
 
 
-@media (max-width: 1024px) {
-  
-  /* Krymper containern och menyn lite så det inte krockar */
-  .main-container {
-    max-width: 100%;
-    padding: 0 1.5rem;
-  }
 
-  nav {
-    gap: 1rem;
-    margin-left: 2rem;
-  }
 
-  nav a {
-    font-size: 0.95rem;
-  }
-
-  
-  }
-
-  /*PIZZABOT*/
- /* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }*/
-  
-  body .pizza {
-    font-family: "Montserrat", sans-serif;
-    background: #1b2f9f;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  p .pizza {
-    font-size: 1.5em;
-  }
 
 
   @media (max-width: 768px) {

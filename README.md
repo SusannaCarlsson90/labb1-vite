@@ -1,4 +1,4 @@
-Här är fortsättningen på laboration 1. För att se vad jag gjorde fram tills rubrik katastrof så kan ni se alla commits och liknande här:
+DEL 1 OBS TOTAL FAIL LÄS PROCESS PÅ HEMSIDAN SOM LIGGER UNDER DEL 2 INNAN DU KLICKAR HÄR KÄRA LÄRARE:
 
 https://github.com/SusannaCarlsson90/Frontend-labb-1.git
 
@@ -6,6 +6,8 @@ Och den publicerade sidan här : https://susannacarlsson90.github.io/Frontend-la
 
 OBS LÄNKARNA OVAN ÄR EJ MIN SLUTGILTIGA INLÄMNING MEN ALLT JAG GJORDE FRAM TILLS RUBRIK KATASTROF PÅ UNDERSIDAN "MIN ARBETSPROCESS"
 
-Nedan är länken till korrekt sida och min inlämning: 
+DEL 2 KORREKT OCH MIN INLÄMNING FÖR LABORATION 1:
+
+Nedan är länken till korrekt sida och min inlämning:
 
 https://labb1-vite.onrender.com/index.html
