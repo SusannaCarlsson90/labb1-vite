@@ -31,7 +31,6 @@ nav a.active {
 
 header {
   background-color: #957C62;
-
   padding: 1.25rem 2.5rem;
   display: flex;
   justify-content: space-between;
@@ -46,8 +45,7 @@ header {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: 
-  #FFE1AF;
+  background-color: #FFE1AF;
 }
 
 main {
@@ -97,7 +95,7 @@ footer {
 }
 
 main.foto-main {
-  max-width: 800px; 
+  max-width: 65ch; 
   display: block;
   margin: 3rem auto;
   font-size: 2rem;
@@ -106,11 +104,6 @@ main.foto-main {
 main.foto-main h1 {
   text-align: center;
 }
-
-
-
-
-
 
   @media (max-width: 768px) {
   
